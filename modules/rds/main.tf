@@ -102,3 +102,5 @@ resource "aws_db_instance" "db_instance" {
   db_name                 = "applicationdb"
   skip_final_snapshot     = true
 }
+
+#test
