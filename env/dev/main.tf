@@ -16,6 +16,8 @@ module "alb" {
 
 module "rds" {
   source = "../../modules/rds"
-  allow_ssh = false
+  
+  #サブネットを設定するのは理解できるのですが、どの値を入力すればいいか分からず悩んでいます
+  #subnet_id = 
   
 }
