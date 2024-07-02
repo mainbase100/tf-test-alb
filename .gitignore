@@ -7,7 +7,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-.terraform
+*.yaml
 # Icon must end with two \r
 Icon
 
